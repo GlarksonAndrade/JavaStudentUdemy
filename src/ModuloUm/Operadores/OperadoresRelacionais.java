@@ -1,4 +1,4 @@
-package Operadores;
+package ModuloUm.Operadores;
 
 public class OperadoresRelacionais {
 

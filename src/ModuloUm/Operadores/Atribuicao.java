@@ -1,6 +1,4 @@
-package Operadores;
-
-import java.net.StandardSocketOptions;
+package ModuloUm.Operadores;
 
 public class Atribuicao {
     public static void main(String[] args) {

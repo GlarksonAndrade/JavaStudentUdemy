@@ -1,4 +1,4 @@
-package Operadores;
+package ModuloUm.Operadores;
 
 public class unarios {
     public static void main(String[] args) {

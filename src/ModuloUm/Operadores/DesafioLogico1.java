@@ -1,4 +1,4 @@
-package Operadores;
+package ModuloUm.Operadores;
 
 public class DesafioLogico1 {
     public static void main (String [] args) {
