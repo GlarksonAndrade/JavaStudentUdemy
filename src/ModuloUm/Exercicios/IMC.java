@@ -1,6 +1,5 @@
 package ModuloUm.Exercicios;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class IMC {
@@ -23,27 +22,16 @@ public class IMC {
         boolean obesidade1 = calc <= 34.9 && calc >= 30;
         boolean sobrepeso = calc <= 29.9 && calc >= 25;
         boolean pesonorm = calc <= 24.9 && calc >= 18.5;
-        boolean abaixopeso = calc < 18.5;
+        //boolean abaixopeso = calc < 18.5;
 
-        System.out.println(obesidade3);
-        System.out.println(obesidade2);
-        System.out.println(obesidade1);
-        System.out.println(sobrepeso);
-        System.out.println(pesonorm);
-        System.out.println(abaixopeso);
+            String teste = obesidade3 ? "Você está Obeso(a) Nível 3!"  :
+               obesidade2 ? " Você está Obeso(a) Nivel 2! ":
+                       obesidade1 ? "Você está Obeso(a) Nivel 1!" :
+                sobrepeso ? "Você está Sobrepeso! " :
+                        pesonorm ? "Você está Dentro do seu peso Normal! " :
+                                "Você está abáixo do Peso Ideal! ";
 
-        //String resultado = "true".equals(obesidade3) ? "Você está Obeso Nivel 3! " : obesidade2;
-        //resultado = "true".equals(obesidade2) ? "Voçê está Obeso Nivel 2! " : obesidade1;
-
-       // boolean resultado = obesidade3 = true ? "Voçê está Obeso Nivel 3! ": 0;
-        //resultado = "calc".equals(obesidade2) ? "Voçê está Obeso Nivel 2! ": calc;
-       // resultado = "calc".equals(obesidade1) ? "Voçê está Obeso Nivel 1! ": calc;
-        //resultado = "calc".equals(sobrepeso) ? "Voçê está Sobrepeso! ": calc;
-        //resultado = "calc".equals(pesonorm) ? "Voçê está com o peso normal! ": calc;
-       // resultado = "calc".equals(abaixopeso) ? "Voçê está abaixo do peso! ": calc;
-
-        //System.out.println( "vocês está obeso!");
-
+       System.out.println(teste);
 
         entrada.close();
     }
