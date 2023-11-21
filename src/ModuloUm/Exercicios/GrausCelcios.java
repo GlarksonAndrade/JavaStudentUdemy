@@ -1,6 +1,5 @@
 package ModuloUm.Exercicios;
 
-import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class GrausCelcios {
