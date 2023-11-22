@@ -1,3 +1,5 @@
+package ModuloUm;
+
 import java.util.Scanner;
 public class TipoStringEquals {
     public static void main(String[] args) {
