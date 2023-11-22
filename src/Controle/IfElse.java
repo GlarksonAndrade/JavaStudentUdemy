@@ -1,6 +1,7 @@
 package Controle;
 
 import javax.swing.*;
+import java.util.Arrays;
 
 public class IfElse {
     public static void main(String[] args) {
@@ -11,10 +12,8 @@ public class IfElse {
 
         if (numero % 2 == 0) {
             System.out.println("Número Par! ");
-        }
-
-        if (numero % 2 == 1) {
-            System.out.println("Número ímpar! ");
+        } else {
+            System.out.println("Número ímpar!");
         }
 
     }
