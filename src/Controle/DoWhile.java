@@ -7,7 +7,7 @@ public class DoWhile {
 
         Scanner entrada = new Scanner(System.in);
 
-        String texto;
+        String texto = "";
 
         do {
             System.out.println("Você Precisa falar as " +
