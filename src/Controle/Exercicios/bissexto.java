@@ -3,7 +3,7 @@ package Controle.Exercicios;
 import java.util.Scanner;
 
 public class bissexto {
-    public static void main(String[] args) {
+    public static void main() {
 
         Scanner entrada = new Scanner(System.in);
 
