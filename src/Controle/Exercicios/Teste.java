@@ -13,21 +13,21 @@ public class Teste {
         System.out.println("Digite o ano Final");
         int anofinal = entrada.nextInt();
 
-        int ano = anofinal - anoinicial;
+        int ano = 0;
 
         int total = 0;
 
         int bisexto = 0;
         int normal = 0;
 
-        for (ano = ano; ano != 1; ano--) {
+        for (ano = anofinal; ano != anoinicial; ano--) {
 
             if (ebissexto(ano)) {
                 total = total+ 366;
                 bisexto++;
             } else
                 total = total + 365;
-            normal++;
+                normal++;
         }
         System.out.printf("Neste intervalo de anos temos,\n%d, anos bissextos,\n%d anos normais e um total de %d dias", bisexto, normal, total);
 
