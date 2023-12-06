@@ -1,3 +1,5 @@
+package Controle;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 public class ForIt {
