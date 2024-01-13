@@ -1,4 +1,4 @@
-package oo.composicao;
+package oo.Composicao;
 
 public class compraTeste {
     public static void main(String[] args) {
