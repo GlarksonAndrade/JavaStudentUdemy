@@ -1,4 +1,4 @@
-package oo.Composicao;
+package oo.composicao;
 
 public class Carro {
 

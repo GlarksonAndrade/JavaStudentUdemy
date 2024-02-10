@@ -1,4 +1,4 @@
-package oo.Composicao.heranca;
+package oo.heranca;
 
 public class Monstro extends Jogador{
     boolean atacar(Jogador oponente){
