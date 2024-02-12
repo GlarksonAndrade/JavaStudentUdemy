@@ -1,5 +1,8 @@
 package oo.heranca;
 
+import oo.heranca.Heroi;
+import oo.heranca.Monstro;
+
 public class Jogo {
     public static void main(String[] args) {
         Monstro monstro = new Monstro();
