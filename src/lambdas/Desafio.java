@@ -1,7 +1,5 @@
 package lambdas;
 
-import java.util.function.BinaryOperator;
-import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.UnaryOperator;
 
@@ -28,7 +26,6 @@ public class Desafio {
                 preco -> ("R$" + preco).replace( ".", ",");
 
         Produto p = new Produto("ipad", 3235.89, 0.13);
-
         String preco = precoFinal
                 .andThen(impostoMunicipal)
                 .andThen(frete)
@@ -36,13 +33,6 @@ public class Desafio {
                 .andThen(formatar)
                 .apply(p);
 
-
-
         System.out.println(" O preço Final é : " + preco);
-
-
-
-
-
     }
 }
